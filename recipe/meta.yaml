@@ -1,5 +1,5 @@
 {% set name = "gpyconform" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gpyconform-{{ version }}.tar.gz
-  sha256: 1d585f639a294c3123353f171801d0bdc328c115ad6fd6f66e95ea5ef4f51ceb
+  sha256: b7709f6ab012450d7afdfc26d6af6be96fcb58d1a8faf08d7e0abaaf44fd64c8
 
 build:
   noarch: python
