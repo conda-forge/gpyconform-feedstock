@@ -1,6 +1,6 @@
 {% set name = "gpyconform" %}
 {% set version = "0.2.0.post1" %}
-{% set python_min = "3.8" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv  --no-deps
   number: 0
 
 requirements:
